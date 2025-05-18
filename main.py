@@ -3,6 +3,7 @@ from datetime import datetime, time
 from telegram import Bot
 from telegram.error import TelegramError
 import pytz
+from config import TOKEN, CHAT_ID
 
 # Напоминание в 18:00 по Москве
 REMINDER_TIME = time(18, 0)
